@@ -4,7 +4,7 @@ import Head from "next/head"
 
 function Layout(props) {
   return (
-    <div className="w-4/6 h-screen m-auto flex flex-col">
+    <div className="max-w-2xl h-screen m-auto flex flex-col">
       <Head>
         <title>Blossom By Eve</title>
         <link rel="icon" href="/favicon.ico" />
