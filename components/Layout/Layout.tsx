@@ -2,9 +2,11 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Head from "next/head"
 
+import "../../styles/Layout.module.css"
+
 function Layout(props) {
   return (
-    <div className="max-w-2xl h-screen m-auto flex flex-col">
+    <div id="layout" className="max-w-2xl h-screen m-auto flex flex-col">
       <Head>
         <title>Blossom By Eve</title>
         <link rel="icon" href="/favicon.ico" />
